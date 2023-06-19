@@ -1,0 +1,23 @@
+- config:
+    name: 1陈帅百度配置
+    request:
+      base_url: https://ug.baidu.com
+      headers:
+        Content-Type: application/json
+- test:
+    name: 1陈帅百度
+    request:
+      json:
+        invoke_info:
+          pos_1:
+          - {}
+          pos_2:
+          - {}
+          pos_3:
+          - {}
+      method: POST
+      url: /mcp/pc/pcsearch
+    validate:
+    - check: status_code
+      comparator: equals
+      expected: 200

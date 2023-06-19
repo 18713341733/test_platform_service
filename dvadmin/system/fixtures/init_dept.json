@@ -1,0 +1,36 @@
+[
+    {
+        "name": "xx测试",
+        "key": "dvadmin",
+        "sort": 1,
+        "owner": "",
+        "phone": "",
+        "email": "",
+        "status": true,
+        "parent": null,
+        "children": [
+            {
+                "name": "xx测试部",
+                "key": "",
+                "sort": 2,
+                "owner": "",
+                "phone": "",
+                "email": "",
+                "status": true,
+                "parent": 1,
+                "children": []
+            },
+            {
+                "name": "研发部",
+                "key": "technology",
+                "sort": 1,
+                "owner": "",
+                "phone": "",
+                "email": "",
+                "status": true,
+                "parent": 3,
+                "children": []
+            }
+        ]
+    }
+]
