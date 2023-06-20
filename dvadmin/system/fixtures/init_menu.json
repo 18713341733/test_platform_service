@@ -669,6 +669,23 @@
                 "parent": 277,
                 "children": [
                     {
+                "name": "套件编辑",
+                "icon": "compass",
+                "sort": 3,
+                "is_link": false,
+                "is_catalog": false,
+                "web_path": "/testsuites_edit/:id",
+                "component": "apitest/TestsuiteEdit",
+                "component_name": "TestsuiteEdit",
+                "status": true,
+                "cache": false,
+                "visible": false,
+                "parent": 277,
+                "children": [],
+                "menu_button": [
+                ]
+            },
+                    {
                 "name": "套件列表",
                 "icon": "compass",
                 "sort": 1,
@@ -1218,6 +1235,147 @@
                         "name": "删除",
                         "value": "Delete",
                         "api": "/api/system/menu/{id}/",
+                        "method": 3
+                    }
+                ]
+            },
+            {
+                "name": "坤元基金",
+                "icon": "compass",
+                "sort": 2,
+                "is_link": false,
+                "is_catalog": false,
+                "web_path": "/menuButton",
+                "component": "system/menuButton/index",
+                "component_name": "menuButton",
+                "status": true,
+                "cache": false,
+                "visible": false,
+                "parent": 277,
+                "children": [],
+                "menu_button": [
+                    {
+                        "name": "查询",
+                        "value": "Search",
+                        "api": "/api/system/menu_button/",
+                        "method": 0
+                    },
+                    {
+                        "name": "新增",
+                        "value": "Create",
+                        "api": "/api/system/menu_button/",
+                        "method": 1
+                    },
+                    {
+                        "name": "编辑",
+                        "value": "Update",
+                        "api": "/api/system/menu_button/{id}/",
+                        "method": 2
+                    },
+                    {
+                        "name": "删除",
+                        "value": "Delete",
+                        "api": "/api/system/menu_button/{id}/",
+                        "method": 3
+                    }
+                ]
+            },
+            {
+                "name": "众润多",
+                "icon": "bank",
+                "sort": 3,
+                "is_link": false,
+                "is_catalog": false,
+                "web_path": "/dept",
+                "component": "system/dept/index",
+                "component_name": "dept",
+                "status": true,
+                "cache": false,
+                "visible": true,
+                "parent": 277,
+                "children": [],
+                "menu_button": [
+                    {
+                        "name": "查询",
+                        "value": "Search",
+                        "api": "/api/system/dept/",
+                        "method": 0
+                    },
+                    {
+                        "name": "详情",
+                        "value": "Retrieve",
+                        "api": "/api/system/dept/{id}/",
+                        "method": 0
+                    },
+                    {
+                        "name": "新增",
+                        "value": "Create",
+                        "api": "/api/system/dept/",
+                        "method": 1
+                    },
+                    {
+                        "name": "编辑",
+                        "value": "Update",
+                        "api": "/api/system/dept/{id}/",
+                        "method": 2
+                    },
+                    {
+                        "name": "删除",
+                        "value": "Delete",
+                        "api": "/api/system/dept/{id}/",
+                        "method": 3
+                    }
+                ]
+            },
+            {
+                "name": "视幕",
+                "icon": "address-book",
+                "sort": 4,
+                "is_link": false,
+                "is_catalog": false,
+                "web_path": "/role",
+                "component": "system/role/index",
+                "component_name": "role",
+                "status": true,
+                "cache": false,
+                "visible": true,
+                "parent": 277,
+                "children": [],
+                "menu_button": [
+                    {
+                        "name": "查询",
+                        "value": "Search",
+                        "api": "/api/system/role/",
+                        "method": 0
+                    },
+                    {
+                        "name": "详情",
+                        "value": "Retrieve",
+                        "api": "/api/system/role/{id}/",
+                        "method": 0
+                    },
+                    {
+                        "name": "新增",
+                        "value": "Create",
+                        "api": "/api/system/role/",
+                        "method": 1
+                    },
+                    {
+                        "name": "编辑",
+                        "value": "Update",
+                        "api": "/api/system/role/{id}/",
+                        "method": 2
+                    },
+                    {
+                        "name": "保存",
+                        "value": "Save",
+                        "api": "/api/system/role/{id}/",
+                        "method": 2
+                    },
+                    {
+                        "name": "删除",
+                        "value": "Delete",
+                        "api": "/api/system/role/{id}/",
                         "method": 3
                     }
                 ]
