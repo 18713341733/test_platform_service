@@ -14,7 +14,7 @@ from configures.models import Configures
 from utils.mixins import RunMixin
 
 
-logger = logging.getLogger('backend')
+logger = logging.getLogger('test_platform_service')
 
 
 class InterfaceViewSet(RunMixin, viewsets.ModelViewSet):
